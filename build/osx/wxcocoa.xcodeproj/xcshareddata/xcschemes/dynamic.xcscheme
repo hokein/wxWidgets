@@ -34,7 +34,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "76DA77D61953DE8200E1DD9D"
             BuildableName = "webview_chromium Helper.app"
-            BlueprintName = "webview_helper_static"
+            BlueprintName = "webview_helper"
             ReferencedContainer = "container:../../samples/webview_chromium/webview_chromium.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -53,7 +53,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "76DA77D61953DE8200E1DD9D"
             BuildableName = "webview_chromium Helper.app"
-            BlueprintName = "webview_helper_static"
+            BlueprintName = "webview_helper"
             ReferencedContainer = "container:../../samples/webview_chromium/webview_chromium.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
