@@ -4199,7 +4199,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "exec install_name_tool -change \"@executable_path/Chromium Embedded Framework\" \"/Users/hokein/GitHub/wxWidgets/samples/webview/Build/Products/Debug/webview.app/Contents/Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nexit 1";
+			shellScript = "exec install_name_tool -change \"@executable_path/Chromium Embedded Framework\" \"@executable_path/../Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nexit 1";
 			showEnvVarsInLog = 0;
 		};
 		94E713C89B403F568A694F9A /* ShellScript */ = {
