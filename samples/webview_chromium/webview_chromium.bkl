@@ -24,7 +24,7 @@
                 mkdir -p webview_chromium_helper.app/Contents/MacOS
                 mkdir -p webview_chromium_helper.app/Contents/Resources
                 sed -e "s/\$${PRODUCT_NAME}/webview_chromium Helper/"  \
-                    -e "s/\$${EXECUTABLE_NAME}/webview_chromium Helper/"  helper-Info.plist >webview_chromium_helper.app/Contents/Info.plist
+                    -e "s/\$${EXECUTABLE_NAME}/webview_chromium Helper/"  mac/helper-Info.plist >webview_chromium_helper.app/Contents/Info.plist
                 /bin/echo "APPL????" >webview_chromium_helper.app/Contents/PkgInfo
                 <!--Fix CEF link path -->
                 install_name_tool -change "@executable_path/Chromium Embedded Framework" "@executable_path/../../../../Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework" webview_chromium_helper
