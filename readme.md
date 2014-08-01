@@ -24,37 +24,39 @@ For more details, you can refer to [wxWebViewChromium's wiki](https://github.com
 ## Building Instructions 
 
 wxWebViewChromium supports Windows/Linux/Mac OS X platforms.
+For developers who want to use webviewChromium feature, they need to link to webviewchromium library on Windows/Linux platforms(
+On Mac OS X, they need to do more, see below section).
 
 ###Common Steps
 
 1. Clone the repository by running `git clone https://github.com/hokein/wxWidgets.git` 
 
-2. Copy the CEF3 directory to wxWidgets src directory(wxWidgets sets `<wxWidgets_src>/cef` as a default library).
+2. Copy the CEF3 directory to wxWidgets src directory(wxWidgets sets `<wxWidgets_src>/src/cef` as a default library).
 
 ###Windows Platform
 
 By default, wxWidgets provides Visual Stdio 2010 project file to build wxWebViewChromium, and set Chromium Embedded Framework in `<wxWidgets_src>/cef` directory.
 
-3. Open `build/msw/wc_vc10.sln` project file in Visual Stdio 2010, and build `wxWidgets` library. 
+1. Open `build/msw/wc_vc10.sln` project file in Visual Stdio 2010, and build `wxWidgets` library.
 
-4. Open `samples/webview_chromium/webview_chromium_vc10.vcxproj` file in Visual Stdio 2010, and build it.
+2. Open `samples/webview_chromium/webview_chromium_vc10.vcxproj` file in Visual Stdio 2010, and build it.
 
-5. Copy CEF3 related resources(libcef.dll, libffmpegsumo.so, locales/\*, cef.apk, devtools_resources.pak) to webview_chromium binary directory.
+3. Copy CEF3 related resources(libcef.dll, libffmpegsumo.so, locales/\*, cef.apk, devtools_resources.pak) to webview_chromium binary directory.
 
 
 ###Linux Platform
 
 By default, wxWebviewChromium feature is disabled in makefile build, you should enable it through `enable-webviewchromium` option.
 
-3. Regenerate the building files by running `bakefile_gen -f autoconf` command under `build/bakefiles` directory.
+1. Regenerate the building files by running `bakefile_gen -f autoconf` command under `build/bakefiles` directory.
 
-4. Run `./autogen.sh` under `<wxWidgets_src>`.
+2. Run `./autogen.sh` under `<wxWidgets_src>`.
 
-5. Run `./configure --enable-webview --enable-webviewchromium` and `make` commands.
+3. Run `./configure --enable-webview --enable-webviewchromium` and `make` commands.
 
-6. Copy CEF3 related resources as above step5 in windows Platform.
+4. Copy CEF3 related resources as above step5 in windows Platform.
 
-7. Add `libcef.so` directory path to `LD_LIBRARY_PATH`(`export LD_LIBRARY_PATH=<libcef_directory>`),
+5. Add `libcef.so` directory path to `LD_LIBRARY_PATH`(`export LD_LIBRARY_PATH=<libcef_directory>`),
 otherwise webview_chromium will not find `libcef.so`.
 
 
@@ -66,9 +68,80 @@ wxWidgets supports xcode/makefile builds, requre OS X 10.8 or above.
 
 * Makefile: the same as linux platform mentioned above.
 
+
+Due to the application bundle structure on OS X, wxWebviewChromium is a little complicated than win/linux platfroms.
+We need an extra `helper` application for executing separate other chromim processes(renderer, plugin, etc), so they
+have separated app bundles and Info.plist.
+
+For application using webviewChromium, below are details steps, you can retrieve it in `webview_chromium.bkl`(samples/webview_chromium/webview_chromium.bkl) files:
+
+1. Build webviewchromium library.
+   * Use system tool `install_name_tool -change` to correct `Chromium Embedded Framework.framework/Chromium Embedded Framework` location.
+
+2. Compiled/link/package the `helper` app:
+   * Require `process_helper_mac.cpp`
+   * Reuqire link frameworks: Chromium Embedded Framework.framework, AppKit.frameworks.
+   * Reuqire app bundle configuration: Info.plist
+   * Use system tool `install_name_tool -change` to correct `Chromium Embedded Framework.framework/Chromium Embedded Framework` location.
+
+2. Compiled/link/package the `webviewchromium` app:
+   * Require `webview.cpp`
+   * Reuqire link frameworks: Chromium Embedded Framework.framework, AppKit.frameworks.
+   * Reuqire app bundle configuration: Info.plist
+   * Use system tool `install_name_tool -change` to correct `Chromium Embedded Framework.framework/Chromium Embedded Framework` location.
+
+3. Create a `Contents/Frameworks` directory in `webviewchromium.app` bundle and copy `helper.app`, `webviewchromium.dylib` and `Chromium Embedded Framework` in it.
+
+4. Use `samples/webview_chromium/mac/tools/make_more_helper.sh` to make sub-process helper app bundles based on `helper` app.
+
+
+Below is the wxWebviewChromium sample app bundle directory structure:
+
+```
+webview_chromium.app
+`-- Contents
+    |-- Frameworks
+    |   |-- Chromium Embedded Framework.framework       <= CEF framework
+    |   |   |-- Chromium Embedded Framework
+    |   |   |-- Libraries
+    |   |   |   `-- ffmpegsumo.so
+    |   |   `-- Resources\
+    |   |-- libwx_osx_cocoau_webviewchromium-3.1.dylib  <= wxWebviewChromium library supports webviewChromium backend.
+    |   |-- webview_chromium Helper EH.app              <= helper app
+    |   |   `-- Contents
+    |   |       |-- Info.plist
+    |   |       |-- MacOS
+    |   |       |   `-- webview_chromium Helper EH
+    |   |       |-- PkgInfo
+    |   |       `-- Resources
+    |   |           `-- wxmac.icns
+    |   |-- webview_chromium Helper NP.app              <= helper app
+    |   |   `-- Contents
+    |   |       |-- Info.plist
+    |   |       |-- MacOS
+    |   |       |   `-- webview_chromium Helper NP
+    |   |       |-- PkgInfo
+    |   |       `-- Resources
+    |   |           `-- wxmac.icns
+    |   `-- webview_chromium Helper.app                 <= helper app
+    |       `-- Contents
+    |           |-- Info.plist
+    |           |-- MacOS
+    |           |   `-- webview_chromium Helper
+    |           |-- PkgInfo
+    |           `-- Resources
+    |               `-- wxmac.icns
+    |-- Info.plist
+    |-- MacOS
+    |   `-- webview_chromium                            <= webviewchromium sample executable
+    |-- PkgInfo
+    `-- Resources
+        `-- wxmac.icns                                  <= resources.
+```
+
 ##Notes
 
-wxWidgets will set `wxWidgets_src/cef` directory as default CEF path.  If you want to specify your custom CEF path, please follow the steps:
+wxWidgets will set `wxWidgets_src/src/cef` directory as default CEF path. If you want to specify your custom CEF path, please follow the steps:
 
 1. Specify your CEF path to `CEF_INCLUDE_DIR` variable in `build/bakefiles/config.bkl` file.
 
