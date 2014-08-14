@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -813,15 +813,8 @@
 		760C729E41D93CC1AA2B4E0E /* hyperlinkg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBCA90340E433DBBAE74EBE1 /* hyperlinkg.cpp */; };
 		7625D908B2CD34C78243BA8F /* settcmn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE3DC4AA47D39ACA83F27C0 /* settcmn.cpp */; };
 		7625D908B2CD34C78243BA90 /* settcmn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ABE3DC4AA47D39ACA83F27C0 /* settcmn.cpp */; };
-		76544B5E1951707C00936CDF /* webview_chromium.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76544B5D1951707C00936CDF /* webview_chromium.cpp */; };
-		76544B641951780B00936CDF /* libcef_dll_wrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76544B631951780B00936CDF /* libcef_dll_wrapper.a */; };
-		765450681951B3BA00936CDF /* Chromium Embedded Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765450671951B3BA00936CDF /* Chromium Embedded Framework.framework */; };
 		768716016CE7310BB1AD7567 /* regexec.c in Sources */ = {isa = PBXBuildFile; fileRef = 1482A34AC32133E4BE207223 /* regexec.c */; };
 		768716016CE7310BB1AD7568 /* regexec.c in Sources */ = {isa = PBXBuildFile; fileRef = 1482A34AC32133E4BE207223 /* regexec.c */; };
-		7688BC921952E02600938543 /* libcef_dll_wrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76544B631951780B00936CDF /* libcef_dll_wrapper.a */; };
-		7688BCAE195300AF00938543 /* webview_chromium.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76544B5D1951707C00936CDF /* webview_chromium.cpp */; };
-		7688BCAF1953017700938543 /* Chromium Embedded Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765450671951B3BA00936CDF /* Chromium Embedded Framework.framework */; };
-		7688BCB619530E9600938543 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7688BCB519530E9600938543 /* AppKit.framework */; };
 		76A83A293C9F33BCB7DFDE26 /* jdatadst.c in Sources */ = {isa = PBXBuildFile; fileRef = 59B19927E27F39ACB1D2BDA3 /* jdatadst.c */; };
 		76A83A293C9F33BCB7DFDE27 /* jdatadst.c in Sources */ = {isa = PBXBuildFile; fileRef = 59B19927E27F39ACB1D2BDA3 /* jdatadst.c */; };
 		76D1A1A49CC831FFB9EBB1F5 /* LexOpal.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE0AC63C4639E4BFD3B582 /* LexOpal.cxx */; };
@@ -2121,10 +2114,6 @@
 		75BF90BEF2F83BF28EC0458D /* stdpbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stdpbase.cpp; path = ../../src/common/stdpbase.cpp; sourceTree = "<group>"; };
 		75D0C937F2A03ADA8581A2BB /* arcall.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = arcall.cpp; path = ../../src/common/arcall.cpp; sourceTree = "<group>"; };
 		76337016F2CA3C85831702E6 /* grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = grid.cpp; path = ../../src/generic/grid.cpp; sourceTree = "<group>"; };
-		76544B5D1951707C00936CDF /* webview_chromium.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = webview_chromium.cpp; path = ../../src/common/webview_chromium.cpp; sourceTree = "<group>"; };
-		76544B631951780B00936CDF /* libcef_dll_wrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcef_dll_wrapper.a; path = ../../../../../cef/xcodebuild/Debug/libcef_dll_wrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		765450671951B3BA00936CDF /* Chromium Embedded Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Chromium Embedded Framework.framework"; path = "../../cef/Debug/Chromium Embedded Framework.framework"; sourceTree = SOURCE_ROOT; };
-		7688BCB519530E9600938543 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		772AD4682A3E38538511D341 /* bmpbtncmn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bmpbtncmn.cpp; path = ../../src/common/bmpbtncmn.cpp; sourceTree = "<group>"; };
 		773D91F8280434519BD167EA /* radiobox_osx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = radiobox_osx.cpp; path = ../../src/osx/radiobox_osx.cpp; sourceTree = "<group>"; };
 		776CD7F5B0673B4688F2EC92 /* dcgraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dcgraph.cpp; path = ../../src/common/dcgraph.cpp; sourceTree = "<group>"; };
@@ -2607,9 +2596,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7688BCB619530E9600938543 /* AppKit.framework in Frameworks */,
-				7688BCAF1953017700938543 /* Chromium Embedded Framework.framework in Frameworks */,
-				7688BC921952E02600938543 /* libcef_dll_wrapper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2617,8 +2603,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				765450681951B3BA00936CDF /* Chromium Embedded Framework.framework in Frameworks */,
-				76544B641951780B00936CDF /* libcef_dll_wrapper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2678,9 +2662,6 @@
 		1D56230B75893DBA8A923441 /* wxcocoa */ = {
 			isa = PBXGroup;
 			children = (
-				7688BCB519530E9600938543 /* AppKit.framework */,
-				765450671951B3BA00936CDF /* Chromium Embedded Framework.framework */,
-				76544B631951780B00936CDF /* libcef_dll_wrapper.a */,
 				7DEBE1EB2B94305E8E8D6EA5 /* wxcocoa.xcconfig */,
 				8707324525DB344EA0E7D5CE /* wxdebug.xcconfig */,
 				D5B7B7C10A3E3C689AE1E418 /* wxrelease.xcconfig */,
@@ -3891,7 +3872,6 @@
 		D957B1B354FC327288FDF9DA /* src/common */ = {
 			isa = PBXGroup;
 			children = (
-				76544B5D1951707C00936CDF /* webview_chromium.cpp */,
 				0DA80913C0E33144A42BD30F /* webview.cpp */,
 				70112AB00E013A35BE974FF1 /* webviewarchivehandler.cpp */,
 				CFBDB327E4A236A3ABFA326F /* webviewfshandler.cpp */,
@@ -4127,7 +4107,6 @@
 				B688C600AA163F61B2B151DF /* Headers */,
 				8BD3A3B4622D37B8B5DB242E /* Sources */,
 				82F403E7B8653CBD908BC258 /* Frameworks */,
-				7654506A1951B55D00936CDF /* Fix cef link */,
 			);
 			buildRules = (
 			);
@@ -4161,11 +4140,8 @@
 /* Begin PBXProject section */
 		19367367C9323490BB936F06 /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0510;
-			};
 			buildConfigurationList = 6976B5F5F3A63A21A92029E3 /* Build configuration list for PBXProject "wxcocoa" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -4186,22 +4162,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7654506A1951B55D00936CDF /* Fix cef link */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_PATH)",
-			);
-			name = "Fix cef link";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "exec install_name_tool -change \"@executable_path/Chromium Embedded Framework\" \"@executable_path/../Frameworks/Chromium Embedded Framework.framework/Chromium Embedded Framework\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nexit 1";
-			showEnvVarsInLog = 0;
-		};
 		94E713C89B403F568A694F9A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4235,7 +4195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7688BCAE195300AF00938543 /* webview_chromium.cpp in Sources */,
 				59BFB8C8310E37B39AF8B0D5 /* any.cpp in Sources */,
 				D5A25AC579F436509805335B /* appbase.cpp in Sources */,
 				C2B07E2ECDDC3833BDC9B28D /* arcall.cpp in Sources */,
@@ -5557,7 +5516,6 @@
 				4F99EB97F65330C28EB4D077 /* datectrl_osx.cpp in Sources */,
 				CE2C937117FE3AB599DD30B9 /* sound_osx.cpp in Sources */,
 				20D05D14BFAD3F969666D03B /* timectrl_osx.cpp in Sources */,
-				76544B5E1951707C00936CDF /* webview_chromium.cpp in Sources */,
 				61FEDBF2D47A3B4E861F8296 /* sound.cpp in Sources */,
 				61FEDBF2D47A3B4E861F8298 /* sound.cpp in Sources */,
 				14DEBD7C01FC358B917FDAF2 /* aboutdlg.mm in Sources */,
@@ -5970,29 +5928,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DEBE1EB2B94305E8E8D6EA5 /* wxcocoa.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_PREFIX = lib;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(WXROOT)/Debug\"",
-					/Users/hokein/GitHub/wxWidgets/cef/Debug,
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"$(WXROOT)/cef/Debug\"";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(GCC_PREPROCESSOR_DEFINITIONS)",
 					WXUSINGDLL,
 				);
-				HEADER_SEARCH_PATHS = (
-					"\"$(WXROOT)/src/tiff/libtiff\"",
-					"\"$(WXROOT)/cef\"",
-				);
 				INSTALL_PATH = "@executable_path/../Frameworks/";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/hokein/GitHub/wxWidgets/cef/xcodebuild/Debug,
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"$(WXROOT)/cef/xcodebuild/Debug\"";
 				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
-				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -6000,12 +5942,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8707324525DB344EA0E7D5CE /* wxdebug.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					cef/,
-				);
-				ONLY_ACTIVE_ARCH = YES;
 				WXROOT = "$(PROJECT_DIR)/../..";
 			};
 			name = Debug;
@@ -6014,19 +5950,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DEBE1EB2B94305E8E8D6EA5 /* wxcocoa.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(WXROOT)/cef/Debug\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"\"$(WXROOT)/src/tiff/libtiff\"",
-					"\"$(WXROOT)/cef\"",
-				);
-				LIBRARY_SEARCH_PATHS = "\"$(WXROOT)/cef/xcodebuild/Debug\"";
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"$(WXROOT)/cef/xcodebuild/Debug\"";
 				PRODUCT_NAME = "$(PRODUCT_NAME)_static";
-				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -6034,29 +5958,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DEBE1EB2B94305E8E8D6EA5 /* wxcocoa.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_PREFIX = lib;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/hokein/GitHub/wxWidgets/cef/Debug,
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"$(WXROOT)/cef/Release\"";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(GCC_PREPROCESSOR_DEFINITIONS)",
 					WXUSINGDLL,
 				);
-				HEADER_SEARCH_PATHS = (
-					"\"$(WXROOT)/src/tiff/libtiff\"",
-					"\"$(WXROOT)/cef\"",
-				);
 				INSTALL_PATH = "@executable_path/../Frameworks/";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/hokein/GitHub/wxWidgets/cef/xcodebuild/Debug,
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"$(WXROOT)/xcodebuild/Release\"";
 				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
-				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -6064,11 +5972,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5B7B7C10A3E3C689AE1E418 /* wxrelease.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					cef/,
-				);
 				WXROOT = "$(PROJECT_DIR)/../..";
 			};
 			name = Release;
@@ -6077,18 +5980,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DEBE1EB2B94305E8E8D6EA5 /* wxcocoa.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(WXROOT)/cef/Release\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"\"$(WXROOT)/src/tiff/libtiff\"",
-					"\"$(WXROOT)/cef\"",
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "\"$(WXROOT)/cef/xcodebuild/Release\"";
 				PRODUCT_NAME = "$(PRODUCT_NAME)_static";
-				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
