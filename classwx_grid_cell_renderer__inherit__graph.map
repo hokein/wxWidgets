@@ -1,0 +1,11 @@
+<map id="wxGridCellRenderer" name="wxGridCellRenderer">
+<area shape="rect" id="node4" href="$classwx_grid_cell_bool_renderer.html" title="This class may be used to format boolean data in a cell." alt="" coords="426,73,603,101"/>
+<area shape="rect" id="node5" href="$classwx_grid_cell_string_renderer.html" title="This class may be used to format string data in a cell; it is the default for string cells..." alt="" coords="421,125,608,153"/>
+<area shape="rect" id="node2" href="$classwx_client_data_container.html" title="This class is a mixin that provides storage and management of &quot;client data&quot;." alt="" coords="6,73,175,101"/>
+<area shape="rect" id="node3" href="$classwx_ref_counter.html" title="This class is used to manage reference&#45;counting providing a simple interface and a counter..." alt="" coords="35,125,147,153"/>
+<area shape="rect" id="node6" href="$classwx_grid_cell_auto_wrap_string_renderer.html" title="This class may be used to format string data in a cell." alt="" coords="665,5,857,48"/>
+<area shape="rect" id="node7" href="$classwx_grid_cell_date_time_renderer.html" title="This class may be used to format a date/time data in a cell." alt="" coords="656,73,866,101"/>
+<area shape="rect" id="node8" href="$classwx_grid_cell_enum_renderer.html" title="This class may be used to render in a cell a number as a textual equivalent." alt="" coords="669,125,854,153"/>
+<area shape="rect" id="node9" href="$classwx_grid_cell_float_renderer.html" title="This class may be used to format floating point data in a cell." alt="" coords="671,177,852,205"/>
+<area shape="rect" id="node10" href="$classwx_grid_cell_number_renderer.html" title="This class may be used to format integer data in a cell." alt="" coords="661,229,862,257"/>
+</map>

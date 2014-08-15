@@ -1,0 +1,6 @@
+<map id="wxGridCellFloatRenderer" name="wxGridCellFloatRenderer">
+<area shape="rect" id="node2" href="$classwx_grid_cell_string_renderer.html" title="This class may be used to format string data in a cell; it is the default for string cells..." alt="" coords="77,161,264,189"/>
+<area shape="rect" id="node3" href="$classwx_grid_cell_renderer.html" title="This class is responsible for actually drawing the cell in the grid." alt="" coords="96,83,244,111"/>
+<area shape="rect" id="node4" href="$classwx_client_data_container.html" title="This class is a mixin that provides storage and management of &quot;client data&quot;." alt="" coords="5,6,173,34"/>
+<area shape="rect" id="node5" href="$classwx_ref_counter.html" title="This class is used to manage reference&#45;counting providing a simple interface and a counter..." alt="" coords="197,6,308,34"/>
+</map>

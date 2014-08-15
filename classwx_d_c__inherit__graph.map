@@ -1,0 +1,17 @@
+<map id="wxDC" name="wxDC">
+<area shape="rect" id="node3" href="$classwx_g_c_d_c.html" title="wxGCDC is a device context that draws on a wxGraphicsContext." alt="" coords="265,5,343,33"/>
+<area shape="rect" id="node4" href="$classwx_memory_d_c.html" title="A memory device context provides a means to draw graphics onto a bitmap." alt="" coords="249,57,359,85"/>
+<area shape="rect" id="node8" href="$classwx_metafile_d_c.html" title="This is a type of device context that allows a metafile object to be created (Windows only)..." alt="" coords="249,109,359,137"/>
+<area shape="rect" id="node9" href="$classwx_mirror_d_c.html" title="wxMirrorDC is a simple wrapper class which is always associated with a real wxDC object and either fo..." alt="" coords="255,161,353,189"/>
+<area shape="rect" id="node10" href="$classwx_post_script_d_c.html" title="This defines the wxWidgets Encapsulated PostScript device context, which can write PostScript files o..." alt="" coords="243,213,365,241"/>
+<area shape="rect" id="node11" href="$classwx_printer_d_c.html" title="A printer device context is specific to MSW and Mac, and allows access to any printer with a Windows ..." alt="" coords="253,265,355,293"/>
+<area shape="rect" id="node12" href="$classwx_screen_d_c.html" title="A wxScreenDC can be used to paint on the screen." alt="" coords="253,317,355,345"/>
+<area shape="rect" id="node13" href="$classwx_s_v_g_file_d_c.html" title="A wxSVGFileDC is a device context onto which graphics and text can be drawn, and the output produced ..." alt="" coords="251,369,357,397"/>
+<area shape="rect" id="node14" href="$classwx_window_d_c.html" title="A wxWindowDC must be constructed if an application wishes to paint on the whole area of a window (cli..." alt="" coords="250,421,358,449"/>
+<area shape="rect" id="node2" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="6,213,87,241"/>
+<area shape="rect" id="node5" href="$classwx_buffered_d_c.html" title="This class provides a simple way to avoid flicker: when drawing on it, everything is in fact first dr..." alt="" coords="413,57,526,85"/>
+<area shape="rect" id="node6" href="$classwx_buffered_paint_d_c.html" title="This is a subclass of wxBufferedDC which can be used inside of an EVT_PAINT() event handler to achiev..." alt="" coords="573,57,717,85"/>
+<area shape="rect" id="node7" href="$classwx_auto_buffered_paint_d_c.html" title="This wxDC derivative can be used inside of an EVT_PAINT() event handler to achieve double&#45;buffered dr..." alt="" coords="766,57,941,85"/>
+<area shape="rect" id="node15" href="$classwx_client_d_c.html" title="A wxClientDC must be constructed if an application wishes to paint on the client area of a window fro..." alt="" coords="421,421,517,449"/>
+<area shape="rect" id="node16" href="$classwx_paint_d_c.html" title="A wxPaintDC must be constructed if an application wishes to paint on the client area of a window from..." alt="" coords="600,421,690,449"/>
+</map>

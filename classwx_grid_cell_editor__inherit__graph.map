@@ -1,0 +1,11 @@
+<map id="wxGridCellEditor" name="wxGridCellEditor">
+<area shape="rect" id="node4" href="$classwx_grid_cell_bool_editor.html" title="Grid cell editor for boolean data." alt="" coords="411,5,568,33"/>
+<area shape="rect" id="node5" href="$classwx_grid_cell_choice_editor.html" title="Grid cell editor for string data providing the user a choice from a list of strings." alt="" coords="403,57,576,85"/>
+<area shape="rect" id="node7" href="$classwx_grid_cell_text_editor.html" title="Grid cell editor for string/text data." alt="" coords="411,142,567,170"/>
+<area shape="rect" id="node2" href="$classwx_client_data_container.html" title="This class is a mixin that provides storage and management of &quot;client data&quot;." alt="" coords="6,30,175,58"/>
+<area shape="rect" id="node3" href="$classwx_ref_counter.html" title="This class is used to manage reference&#45;counting providing a simple interface and a counter..." alt="" coords="35,82,147,110"/>
+<area shape="rect" id="node6" href="$classwx_grid_cell_enum_editor.html" title="Grid cell editor which displays an enum number as a textual equivalent (eg." alt="" coords="637,39,803,67"/>
+<area shape="rect" id="node8" href="$classwx_grid_cell_auto_wrap_string_editor.html" title="Grid cell editor for wrappable string/text data." alt="" coords="624,92,816,135"/>
+<area shape="rect" id="node9" href="$classwx_grid_cell_float_editor.html" title="The editor for floating point numbers data." alt="" coords="640,159,800,187"/>
+<area shape="rect" id="node10" href="$classwx_grid_cell_number_editor.html" title="Grid cell editor for numeric integer data." alt="" coords="630,211,810,239"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="wxSVGBitmapHandler" name="wxSVGBitmapHandler">
+<area shape="rect" id="node2" href="$classwx_s_v_g_bitmap_embed_handler.html" title="Handler embedding bitmaps as base64&#45;encoded PNGs into the SVG." alt="" coords="5,83,208,111"/>
+<area shape="rect" id="node3" href="$classwx_s_v_g_bitmap_file_handler.html" title="Handler saving a bitmap to an external file and linking to it from the SVG." alt="" coords="233,83,415,111"/>
+</map>

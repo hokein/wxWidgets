@@ -1,0 +1,9 @@
+<map id="wxDataViewCtrl" name="wxDataViewCtrl">
+<area shape="rect" id="node7" href="$classwx_data_view_list_ctrl.html" title="This class is a wxDataViewCtrl which internally uses a wxDataViewListStore and forwards most of its A..." alt="" coords="5,393,149,421"/>
+<area shape="rect" id="node8" href="$classwx_data_view_tree_ctrl.html" title="This class is a wxDataViewCtrl which internally uses a wxDataViewTreeStore and forwards most of its A..." alt="" coords="174,393,324,421"/>
+<area shape="rect" id="node2" href="$classwx_control.html" title="This is the base class for a control or &quot;widget&quot;." alt="" coords="119,238,205,266"/>
+<area shape="rect" id="node3" href="$classwx_window.html" title="wxWindow is the base class for all windows and represents any visible object on screen." alt="" coords="118,161,207,189"/>
+<area shape="rect" id="node4" href="$classwx_evt_handler.html" title="A class that can handle events from the windowing system." alt="" coords="108,83,216,111"/>
+<area shape="rect" id="node5" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="65,6,145,34"/>
+<area shape="rect" id="node6" href="$classwx_trackable.html" title="Add&#45;on base class for a trackable object." alt="" coords="169,6,269,34"/>
+</map>

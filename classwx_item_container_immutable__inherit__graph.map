@@ -1,0 +1,14 @@
+<map id="wxItemContainerImmutable" name="wxItemContainerImmutable">
+<area shape="rect" id="node2" href="$classwx_item_container.html" title="This class is an abstract base class for some wxWidgets controls which contain several items such as ..." alt="" coords="253,135,384,163"/>
+<area shape="rect" id="node13" href="$classwx_radio_box.html" title="A radio box item is used to select one of number of mutually exclusive choices." alt="" coords="269,187,368,215"/>
+<area shape="rect" id="node3" href="$classwx_choice.html" title="A choice item is used to select one of a list of strings." alt="" coords="487,5,569,33"/>
+<area shape="rect" id="node5" href="$classwx_combo_box.html" title="A combobox is like a combination of an edit control and a listbox." alt="" coords="474,57,582,85"/>
+<area shape="rect" id="node7" href="$classwx_control_with_items.html" title="This is convenience class that derives from both wxControl and wxItemContainer." alt="" coords="453,109,603,137"/>
+<area shape="rect" id="node8" href="$classwx_list_box.html" title="A listbox is used to select one or more of a list of strings." alt="" coords="486,161,570,189"/>
+<area shape="rect" id="node11" href="$classwx_owner_drawn_combo_box.html" title="wxOwnerDrawnComboBox is a combobox with owner&#45;drawn list items." alt="" coords="432,213,624,241"/>
+<area shape="rect" id="node12" href="$classwx_simple_html_list_box.html" title="wxSimpleHtmlListBox is an implementation of wxHtmlListBox which shows HTML content in the listbox row..." alt="" coords="448,265,608,293"/>
+<area shape="rect" id="node4" href="$classwx_dir_filter_list_ctrl.html" title="wxDirFilterListCtrl" alt="" coords="681,5,818,33"/>
+<area shape="rect" id="node6" href="$classwx_bitmap_combo_box.html" title="A combobox that displays bitmap in front of the list items." alt="" coords="672,57,826,85"/>
+<area shape="rect" id="node9" href="$classwx_check_list_box.html" title="A wxCheckListBox is like a wxListBox, but allows items to be checked or unchecked." alt="" coords="687,161,811,189"/>
+<area shape="rect" id="node10" href="$classwx_rearrange_list.html" title="A listbox&#45;like control allowing the user to rearrange the items and to enable or disable them..." alt="" coords="875,161,1002,189"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="wxFilterOutputStream" name="wxFilterOutputStream">
+<area shape="rect" id="node4" href="$classwx_archive_output_stream.html" title="This is an abstract base class which serves as a common interface to archive output streams such as w..." alt="" coords="78,238,255,266"/>
+<area shape="rect" id="node7" href="$classwx_buffered_output_stream.html" title="This stream acts as a cache." alt="" coords="279,238,461,266"/>
+<area shape="rect" id="node8" href="$classwx_zlib_output_stream.html" title="This stream compresses all data written to it." alt="" coords="486,238,639,266"/>
+<area shape="rect" id="node2" href="$classwx_output_stream.html" title="wxOutputStream is an abstract base class which may not be used directly." alt="" coords="306,83,435,111"/>
+<area shape="rect" id="node3" href="$classwx_stream_base.html" title="This class is the base class of most stream related classes in wxWidgets." alt="" coords="314,6,427,34"/>
+<area shape="rect" id="node5" href="$classwx_tar_output_stream.html" title="Output stream for writing tar files." alt="" coords="5,315,155,343"/>
+<area shape="rect" id="node6" href="$classwx_zip_output_stream.html" title="Output stream for writing zip files." alt="" coords="178,315,328,343"/>
+</map>

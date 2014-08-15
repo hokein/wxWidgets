@@ -1,0 +1,9 @@
+<map id="wxHtmlCell" name="wxHtmlCell">
+<area shape="rect" id="node3" href="$classwx_html_colour_cell.html" title="This cell changes the colour of either the background or the foreground." alt="" coords="4,161,141,189"/>
+<area shape="rect" id="node4" href="$classwx_html_container_cell.html" title="The wxHtmlContainerCell class is an implementation of a cell that may contain more cells in it..." alt="" coords="166,161,324,189"/>
+<area shape="rect" id="node5" href="$classwx_html_font_cell.html" title="This cell represents a font change in the document stream." alt="" coords="348,161,471,189"/>
+<area shape="rect" id="node6" href="$classwx_html_widget_cell.html" title="wxHtmlWidgetCell is a class that provides a connection between HTML cells and widgets (an object deri..." alt="" coords="494,161,633,189"/>
+<area shape="rect" id="node7" href="$classwx_html_word_cell.html" title="This html cell represents a single word or text fragment in the document stream." alt="" coords="657,161,785,189"/>
+<area shape="rect" id="node2" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="369,6,449,34"/>
+<area shape="rect" id="node8" href="$classwx_html_word_with_tabs_cell.html" title="wxHtmlWordCell is a specialization for storing text fragments with embedded tab characters." alt="" coords="628,238,813,266"/>
+</map>

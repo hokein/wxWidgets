@@ -1,0 +1,5 @@
+<map id="wxDataViewSpinRenderer" name="wxDataViewSpinRenderer">
+<area shape="rect" id="node2" href="$classwx_data_view_custom_renderer.html" title="You need to derive a new class from wxDataViewCustomRenderer in order to write a new renderer..." alt="" coords="5,161,211,189"/>
+<area shape="rect" id="node3" href="$classwx_data_view_renderer.html" title="This class is used by wxDataViewCtrl to render the individual cells." alt="" coords="29,83,185,111"/>
+<area shape="rect" id="node4" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="67,6,148,34"/>
+</map>

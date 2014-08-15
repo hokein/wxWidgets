@@ -1,0 +1,5 @@
+<map id="wxSettableHeaderColumn" name="wxSettableHeaderColumn">
+<area shape="rect" id="node3" href="$classwx_data_view_column.html" title="This class represents a column in a wxDataViewCtrl." alt="" coords="4,161,152,189"/>
+<area shape="rect" id="node4" href="$classwx_header_column_simple.html" title="Simple container for the information about the column." alt="" coords="177,161,355,189"/>
+<area shape="rect" id="node2" href="$classwx_header_column.html" title="Represents a column header in controls displaying tabular data such as wxDataViewCtrl or wxGrid..." alt="" coords="104,6,239,34"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="wxWithImages" name="wxWithImages">
+<area shape="rect" id="node2" href="$classwx_book_ctrl_base.html" title="A book control is a convenient way of displaying multiple pages of information, displayed one page at..." alt="" coords="398,83,521,111"/>
+<area shape="rect" id="node3" href="$classwx_aui_notebook.html" title="wxAuiNotebook is part of the wxAUI class framework, which represents a notebook control, managing multiple windows with associated tabs." alt="" coords="5,161,128,189"/>
+<area shape="rect" id="node4" href="$classwx_choicebook.html" title="wxChoicebook is a class similar to wxNotebook, but uses a wxChoice control to show the labels instead..." alt="" coords="153,161,268,189"/>
+<area shape="rect" id="node5" href="$classwx_listbook.html" title="wxListbook is a class similar to wxNotebook but which uses a wxListCtrl to show the labels instead of..." alt="" coords="292,161,385,189"/>
+<area shape="rect" id="node6" href="$classwx_notebook.html" title="This class represents a notebook control, which manages multiple windows with associated tabs..." alt="" coords="409,161,511,189"/>
+<area shape="rect" id="node7" href="$classwx_simplebook.html" title="wxSimplebook is a control showing exactly one of its several pages." alt="" coords="535,161,649,189"/>
+<area shape="rect" id="node8" href="$classwx_toolbook.html" title="wxToolbook is a class similar to wxNotebook but which uses a wxToolBar to show the labels instead of ..." alt="" coords="673,161,772,189"/>
+<area shape="rect" id="node9" href="$classwx_treebook.html" title="This class is an extension of the wxNotebook class that allows a tree structured set of pages to be s..." alt="" coords="796,161,895,189"/>
+</map>

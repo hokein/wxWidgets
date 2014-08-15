@@ -1,0 +1,5 @@
+<map id="wxPropertyGridInterface" name="wxPropertyGridInterface">
+<area shape="rect" id="node2" href="$classwx_property_grid.html" title="wxPropertyGrid is a specialized grid for editing properties &#45; in other words name = value pairs..." alt="" coords="5,83,125,111"/>
+<area shape="rect" id="node3" href="$classwx_property_grid_manager.html" title="wxPropertyGridManager is an efficient multi&#45;page version of wxPropertyGrid, which can optionally have..." alt="" coords="149,83,325,111"/>
+<area shape="rect" id="node4" href="$classwx_property_grid_page.html" title="Holder of property grid page information." alt="" coords="350,83,500,111"/>
+</map>

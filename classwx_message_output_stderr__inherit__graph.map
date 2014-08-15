@@ -1,0 +1,5 @@
+<map id="wxMessageOutputStderr" name="wxMessageOutputStderr">
+<area shape="rect" id="node3" href="$classwx_message_output_best.html" title="Output messages in the best possible way." alt="" coords="4,161,168,189"/>
+<area shape="rect" id="node4" href="$classwx_message_output_debug.html" title="Output messages to the system debug output channel." alt="" coords="193,161,373,189"/>
+<area shape="rect" id="node2" href="$classwx_message_output.html" title="Simple class allowing to write strings to various output channels." alt="" coords="116,6,255,34"/>
+</map>

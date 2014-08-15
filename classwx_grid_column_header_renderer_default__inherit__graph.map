@@ -1,0 +1,5 @@
+<map id="wxGridColumnHeaderRendererDefault" name="wxGridColumnHeaderRendererDefault">
+<area shape="rect" id="node2" href="$classwx_grid_column_header_renderer.html" title="Base class for column headers renderer." alt="" coords="4,161,224,189"/>
+<area shape="rect" id="node3" href="$classwx_grid_header_labels_renderer.html" title="Common base class for row and column headers renderers." alt="" coords="9,83,220,111"/>
+<area shape="rect" id="node4" href="$classwx_grid_corner_header_renderer.html" title="Base class for corner window renderer." alt="" coords="7,6,221,34"/>
+</map>

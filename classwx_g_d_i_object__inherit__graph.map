@@ -1,0 +1,12 @@
+<map id="wxGDIObject" name="wxGDIObject">
+<area shape="rect" id="node3" href="$classwx_bitmap.html" title="This class encapsulates the concept of a platform&#45;dependent bitmap, either monochrome or colour or co..." alt="" coords="5,161,88,189"/>
+<area shape="rect" id="node4" href="$classwx_brush.html" title="A brush is a drawing tool for filling in areas." alt="" coords="113,161,188,189"/>
+<area shape="rect" id="node5" href="$classwx_cursor.html" title="A cursor is a small bitmap usually used for denoting where the mouse pointer is, with a picture that ..." alt="" coords="212,161,293,189"/>
+<area shape="rect" id="node6" href="$classwx_font.html" title="A font is an object which determines the appearance of text." alt="" coords="318,161,385,189"/>
+<area shape="rect" id="node7" href="$classwx_icon.html" title="An icon is a small rectangular bitmap usually used for denoting a minimized application." alt="" coords="409,161,475,189"/>
+<area shape="rect" id="node8" href="$classwx_icon_bundle.html" title="This class contains multiple copies of an icon in different sizes." alt="" coords="500,161,609,189"/>
+<area shape="rect" id="node9" href="$classwx_palette.html" title="A palette is a table that maps pixel values to RGB colours." alt="" coords="633,161,715,189"/>
+<area shape="rect" id="node10" href="$classwx_pen.html" title="A pen is a drawing tool for drawing outlines." alt="" coords="740,161,801,189"/>
+<area shape="rect" id="node11" href="$classwx_region.html" title="A wxRegion represents a simple or complex region on a device context or window." alt="" coords="826,161,909,189"/>
+<area shape="rect" id="node2" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="402,6,483,34"/>
+</map>

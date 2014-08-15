@@ -1,0 +1,10 @@
+<map id="wxGraphicsObject" name="wxGraphicsObject">
+<area shape="rect" id="node3" href="$classwx_graphics_bitmap.html" title="Represents a bitmap." alt="" coords="326,5,466,33"/>
+<area shape="rect" id="node4" href="$classwx_graphics_brush.html" title="A wxGraphicsBrush is a native representation of a brush." alt="" coords="331,57,461,85"/>
+<area shape="rect" id="node5" href="$classwx_graphics_context.html" title="A wxGraphicsContext instance is the object that is drawn upon." alt="" coords="323,109,469,137"/>
+<area shape="rect" id="node6" href="$classwx_graphics_font.html" title="A wxGraphicsFont is a native representation of a font." alt="" coords="334,161,458,189"/>
+<area shape="rect" id="node7" href="$classwx_graphics_matrix.html" title="A wxGraphicsMatrix is a native representation of an affine matrix." alt="" coords="328,213,464,241"/>
+<area shape="rect" id="node8" href="$classwx_graphics_path.html" title="A wxGraphicsPath is a native representation of a geometric path." alt="" coords="335,265,457,293"/>
+<area shape="rect" id="node9" href="$classwx_graphics_pen.html" title="A wxGraphicsPen is a native representation of a pen." alt="" coords="337,317,455,345"/>
+<area shape="rect" id="node2" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="6,161,87,189"/>
+</map>

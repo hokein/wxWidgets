@@ -1,0 +1,7 @@
+<map id="wxMemoryDC" name="wxMemoryDC">
+<area shape="rect" id="node4" href="$classwx_buffered_d_c.html" title="This class provides a simple way to avoid flicker: when drawing on it, everything is in fact first dr..." alt="" coords="36,238,148,266"/>
+<area shape="rect" id="node2" href="$classwx_d_c.html" title="A wxDC is a &quot;device context&quot; onto which graphics and text can be drawn." alt="" coords="63,83,120,111"/>
+<area shape="rect" id="node3" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="51,6,132,34"/>
+<area shape="rect" id="node5" href="$classwx_buffered_paint_d_c.html" title="This is a subclass of wxBufferedDC which can be used inside of an EVT_PAINT() event handler to achiev..." alt="" coords="20,315,164,343"/>
+<area shape="rect" id="node6" href="$classwx_auto_buffered_paint_d_c.html" title="This wxDC derivative can be used inside of an EVT_PAINT() event handler to achieve double&#45;buffered dr..." alt="" coords="5,393,179,421"/>
+</map>

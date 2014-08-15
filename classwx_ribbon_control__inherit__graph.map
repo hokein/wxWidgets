@@ -1,0 +1,13 @@
+<map id="wxRibbonControl" name="wxRibbonControl">
+<area shape="rect" id="node7" href="$classwx_ribbon_bar.html" title="Top&#45;level control in a ribbon user interface." alt="" coords="790,5,895,33"/>
+<area shape="rect" id="node8" href="$classwx_ribbon_button_bar.html" title="A ribbon button bar is similar to a traditional toolbar." alt="" coords="769,57,916,85"/>
+<area shape="rect" id="node9" href="$classwx_ribbon_gallery.html" title="A ribbon gallery is like a wxListBox, but for bitmaps rather than strings." alt="" coords="778,109,907,137"/>
+<area shape="rect" id="node10" href="$classwx_ribbon_page.html" title="Container for related ribbon panels, and a tab within a ribbon bar." alt="" coords="785,161,900,189"/>
+<area shape="rect" id="node11" href="$classwx_ribbon_panel.html" title="Serves as a container for a group of (ribbon) controls." alt="" coords="783,213,902,241"/>
+<area shape="rect" id="node12" href="$classwx_ribbon_tool_bar.html" title="A ribbon tool bar is similar to a traditional toolbar which has no labels." alt="" coords="776,265,909,293"/>
+<area shape="rect" id="node2" href="$classwx_control.html" title="This is the base class for a control or &quot;widget&quot;." alt="" coords="451,135,538,163"/>
+<area shape="rect" id="node3" href="$classwx_window.html" title="wxWindow is the base class for all windows and represents any visible object on screen." alt="" coords="313,135,402,163"/>
+<area shape="rect" id="node4" href="$classwx_evt_handler.html" title="A class that can handle events from the windowing system." alt="" coords="155,135,264,163"/>
+<area shape="rect" id="node5" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="15,109,97,137"/>
+<area shape="rect" id="node6" href="$classwx_trackable.html" title="Add&#45;on base class for a trackable object." alt="" coords="5,161,107,189"/>
+</map>

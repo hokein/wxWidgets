@@ -1,0 +1,13 @@
+<map id="wxDataViewRenderer" name="wxDataViewRenderer">
+<area shape="rect" id="node3" href="$classwx_data_view_bitmap_renderer.html" title="This class is used by wxDataViewCtrl to render bitmap controls." alt="" coords="347,6,549,34"/>
+<area shape="rect" id="node4" href="$classwx_data_view_choice_renderer.html" title="A wxDataViewCtrl renderer using wxChoice control and values of strings in it." alt="" coords="348,58,548,86"/>
+<area shape="rect" id="node6" href="$classwx_data_view_custom_renderer.html" title="You need to derive a new class from wxDataViewCustomRenderer in order to write a new renderer..." alt="" coords="345,110,551,138"/>
+<area shape="rect" id="node8" href="$classwx_data_view_date_renderer.html" title="This class is used by wxDataViewCtrl to render calendar controls." alt="" coords="355,162,541,190"/>
+<area shape="rect" id="node9" href="$classwx_data_view_icon_text_renderer.html" title="The wxDataViewIconTextRenderer class is used to display text with a small icon next to it as it is ty..." alt="" coords="342,214,554,242"/>
+<area shape="rect" id="node10" href="$classwx_data_view_progress_renderer.html" title="This class is used by wxDataViewCtrl to render progress bars." alt="" coords="342,266,554,294"/>
+<area shape="rect" id="node11" href="$classwx_data_view_text_renderer.html" title="wxDataViewTextRenderer is used for rendering text." alt="" coords="356,318,540,346"/>
+<area shape="rect" id="node12" href="$classwx_data_view_toggle_renderer.html" title="This class is used by wxDataViewCtrl to render toggle controls." alt="" coords="348,370,548,398"/>
+<area shape="rect" id="node2" href="$classwx_object.html" title="This is the root class of many of the wxWidgets classes." alt="" coords="6,189,87,217"/>
+<area shape="rect" id="node5" href="$classwx_data_view_choice_by_index_renderer.html" title="A wxDataViewCtrl renderer using wxChoice control and indexes into it." alt="" coords="602,58,854,86"/>
+<area shape="rect" id="node7" href="$classwx_data_view_spin_renderer.html" title="This is a specialized renderer for rendering integer values." alt="" coords="636,110,820,138"/>
+</map>
