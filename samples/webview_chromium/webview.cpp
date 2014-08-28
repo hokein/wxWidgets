@@ -98,6 +98,8 @@ public:
     void OnDocumentLoaded(wxWebViewEvent& evt);
     void OnNewWindow(wxWebViewEvent& evt);
     void OnTitleChanged(wxWebViewEvent& evt);
+    void OnDownloadStarted(wxWebViewEvent& evt);
+    void OnDownloadCompleted(wxWebViewEvent& evt);
     void OnViewSourceRequest(wxCommandEvent& evt);
     void OnViewTextRequest(wxCommandEvent& evt);
     void OnToolsClicked(wxCommandEvent& evt);
@@ -468,6 +470,10 @@ WebFrame::WebFrame(const wxString& url) :
             wxWebViewEventHandler(WebFrame::OnNewWindow), NULL, this);
     Connect(m_browser->GetId(), wxEVT_COMMAND_WEBVIEW_TITLE_CHANGED,
             wxWebViewEventHandler(WebFrame::OnTitleChanged), NULL, this);
+    Connect(m_browser->GetId(), wxEVT_COMMAND_WEBVIEW_DOWNLOAD_STARTED,
+            wxWebViewEventHandler(WebFrame::OnDownloadStarted), NULL, this);
+    Connect(m_browser->GetId(), wxEVT_COMMAND_WEBVIEW_DOWNLOAD_COMPLETED,
+            wxWebViewEventHandler(WebFrame::OnDownloadCompleted), NULL, this);
 
     // Connect the menu events
     Connect(viewSource->GetId(), wxEVT_COMMAND_MENU_SELECTED,
@@ -838,6 +844,16 @@ void WebFrame::OnTitleChanged(wxWebViewEvent& evt)
 {
     SetTitle(evt.GetString());
     wxLogMessage("%s", "Title changed; title='" + evt.GetString() + "'");
+}
+
+void WebFrame::OnDownloadStarted(wxWebViewEvent& evt)
+{
+    wxLogMessage("Begin to download %s.", evt.GetString());
+}
+
+void WebFrame::OnDownloadCompleted(wxWebViewEvent& evt)
+{
+    wxLogMessage("%s download is completed.", evt.GetString());
 }
 
 /**

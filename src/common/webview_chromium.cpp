@@ -728,6 +728,33 @@ void ClientHandler::OnLoadError(CefRefPtr<CefBrowser> WXUNUSED(browser),
     m_loadErrorCode = type;
 }
 
+void ClientHandler::OnBeforeDownload(CefRefPtr<CefBrowser> browser,
+                                     CefRefPtr<CefDownloadItem> download_item,
+                                     const CefString& suggested_name,
+                                     CefRefPtr<CefBeforeDownloadCallback> callback)
+{
+    wxWebViewEvent event(wxEVT_COMMAND_WEBVIEW_DOWNLOAD_STARTED,
+                         m_webview->GetId(), "", "");
+    event.SetString(suggested_name.ToString());
+    event.SetEventObject(m_webview);
+    callback->Continue(suggested_name, true);
+    m_webview->HandleWindowEvent(event);
+}
+
+void ClientHandler::OnDownloadUpdated(CefRefPtr<CefBrowser> browser,
+                                      CefRefPtr<CefDownloadItem> download_item,
+                                      CefRefPtr<CefDownloadItemCallback> callback)
+{
+    if ( download_item->IsComplete() )
+    {
+        wxWebViewEvent event(wxEVT_WEBVIEW_DOWNLOAD_COMPLETED,
+                             m_webview->GetId(), "", "");
+        event.SetString(download_item->GetFullPath().ToString());
+        event.SetEventObject(m_webview);
+        m_webview->HandleWindowEvent(event);
+    }
+}
+
 bool SchemeHandler::ProcessRequest(CefRefPtr<CefRequest> request,
                                    CefRefPtr<CefCallback> callback)
 {
