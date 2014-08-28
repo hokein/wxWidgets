@@ -38,6 +38,7 @@ class ClientHandler : public CefClient,
                       public CefContextMenuHandler,
                       public CefDisplayHandler,
                       public CefLifeSpanHandler,
+                      public CefDownloadHandler,
                       public CefLoadHandler
 {
 public:
@@ -48,6 +49,7 @@ public:
     virtual CefRefPtr<CefLifeSpanHandler> GetLifeSpanHandler() { return this; }
     virtual CefRefPtr<CefLoadHandler> GetLoadHandler() { return this; }
     virtual CefRefPtr<CefDisplayHandler> GetDisplayHandler() { return this; }
+    virtual CefRefPtr<CefDownloadHandler> GetDownloadHandler() { return this; }
 
     // CefDisplayHandler methods
     virtual void OnLoadingStateChange(CefRefPtr<CefBrowser> browser,
@@ -101,6 +103,15 @@ public:
                              ErrorCode errorCode,
                              const CefString& errorText,
                              const CefString& failedUrl);
+
+    // CefDownloadHandler methods
+    virtual void OnBeforeDownload(CefRefPtr<CefBrowser> browser,
+                                  CefRefPtr<CefDownloadItem> download_item,
+                                  const CefString& suggested_name,
+                                  CefRefPtr<CefBeforeDownloadCallback> callback);
+    virtual void OnDownloadUpdated(CefRefPtr<CefBrowser> browser,
+                                   CefRefPtr<CefDownloadItem> download_item,
+                                   CefRefPtr<CefDownloadItemCallback> callback);
 
     CefRefPtr<CefBrowser> GetBrowser() { return m_browser; }
 
